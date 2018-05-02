@@ -5,8 +5,6 @@ from sklearn.neighbors import KNeighborsClassifier
 
 # Create arrays for the features and the response variable
 iris = datasets.load_iris()
-# np.random.shuffle(iris)
-# iris = iris.ra
 X = iris.data[1:]
 y = iris.target[1:]
 z = [X[0]]
