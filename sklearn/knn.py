@@ -15,9 +15,6 @@ print(z)
 # Number of Unique Flower classes
 print(np.unique(y))
 
-# y = df['party'].values
-# X = df.drop('party', axis=1).values
-
 # Create a k-NN classifier with 6 neighbors
 knn = KNeighborsClassifier(n_neighbors=6)
 
